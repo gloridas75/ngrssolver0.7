@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "0.4",
+  "planningReference": "NGRS_Input_SAMPLE",
+  "solverRun": {
+    "runId": "SRN-local-0.4",
+    "solverVersion": "optfold-py-0.4.2",
+    "startedAt": "2025-11-11T20:17:32.327163",
+    "ended": "2025-11-11T20:17:32.348083",
+    "durationSeconds": 0.021,
+    "status": "INFEASIBLE"
+  },
+  "score": {
+    "overall": 1,
+    "hard": 1,
+    "soft": 0
+  },
+  "scoreBreakdown": {
+    "hard": {
+      "violations": [
+        {
+          "type": "hard",
+          "id": "assignment_empty",
+          "note": "No assignments generated"
+        }
+      ]
+    },
+    "soft": {
+      "totalPenalty": 0,
+      "details": []
+    }
+  },
+  "assignments": [],
+  "unmetDemand": [],
+  "meta": {
+    "inputHash": "sha256:0c5c641e4ae1494395235607d85588f6c149c4575535815dea61d9b69aa0a550",
+    "generatedAt": "2025-11-11T20:17:32.348161",
+    "employeeHours": {}
+  }
+}

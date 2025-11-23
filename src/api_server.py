@@ -1,0 +1,492 @@
+"""
+NGRS Solver FastAPI Application.
+
+Main entry point for the REST API.
+Exposes endpoints for solving scheduling problems.
+
+Run with:
+    uvicorn src.api_server:app --reload --port 8080
+
+Or production:
+    uvicorn src.api_server:app --host 0.0.0.0 --port 8080 --workers 2
+"""
+
+import os
+import sys
+import json
+import uuid
+import time
+import logging
+import pathlib
+from typing import Optional
+from datetime import datetime
+
+# Setup path
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
+
+from fastapi import FastAPI, File, UploadFile, Query, HTTPException, Request
+from fastapi.responses import ORJSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
+
+from context.engine.data_loader import load_input
+from context.engine.solver_engine import solve
+from context.engine.config_optimizer import optimize_all_requirements, format_output_config
+from src.models import (
+    SolveRequest, SolveResponse, HealthResponse, 
+    Score, SolverRunMetadata, Meta, Violation
+)
+from src.output_builder import build_output
+
+# ============================================================================
+# LOGGING SETUP
+# ============================================================================
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger("ngrs.api")
+
+# ============================================================================
+# MIDDLEWARE: REQUEST ID TRACKING
+# ============================================================================
+
+class RequestIdMiddleware(BaseHTTPMiddleware):
+    """Add request ID to all requests for tracing."""
+    
+    async def dispatch(self, request: Request, call_next):
+        # Use incoming X-Request-ID or generate new UUID
+        request_id = request.headers.get("X-Request-ID") or str(uuid.uuid4())
+        request.state.request_id = request_id
+        
+        # Process request
+        response = await call_next(request)
+        
+        # Add request ID to response headers
+        response.headers["X-Request-ID"] = request_id
+        return response
+
+# ============================================================================
+# FASTAPI APP
+# ============================================================================
+
+app = FastAPI(
+    title="NGRS Solver API",
+    description="REST API for NGRS Shift Scheduling Solver",
+    version="0.1.0",
+    docs_url="/docs",
+    openapi_url="/openapi.json"
+)
+
+# Add middleware
+app.add_middleware(RequestIdMiddleware)
+
+# Add CORS
+cors_origins = os.getenv(
+    "CORS_ORIGINS",
+    "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8000"
+).split(",")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=cors_origins,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
+)
+
+# ============================================================================
+# HELPER FUNCTIONS
+# ============================================================================
+
+async def load_json_from_upload(file: UploadFile) -> dict:
+    """Load and parse JSON from uploaded file."""
+    try:
+        raw = await file.read()
+        return json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise HTTPException(
+            status_code=422,
+            detail=f"Unable to parse uploaded file as JSON: {str(e)}"
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=422,
+            detail=f"Error reading uploaded file: {str(e)}"
+        )
+
+
+def get_input_json(request_obj: Optional[SolveRequest], uploaded_file_json: Optional[dict], raw_body_json: Optional[dict] = None) -> tuple:
+    """
+    Select input JSON from body or file.
+    
+    Handles three input formats:
+    1. {"input_json": {...}} - wrapped format (in raw_body_json)
+    2. {"schemaVersion": "0.43", ...} - raw NGRS input (top-level in raw_body_json)
+    3. Uploaded file
+    
+    Returns:
+        (input_json, warnings_list)
+    """
+    warnings = []
+    input_json = None
+    source = None
+    
+    # Priority 1: Check if body has explicit input_json wrapper
+    if request_obj and request_obj.input_json:
+        input_json = request_obj.input_json
+        source = "body (wrapped)"
+    
+    # Priority 2: Check if raw body has input_json wrapper
+    elif raw_body_json and "input_json" in raw_body_json and isinstance(raw_body_json.get("input_json"), dict):
+        input_json = raw_body_json["input_json"]
+        source = "body (wrapped)"
+    
+    # Priority 3: Check if raw body is NGRS input (has schemaVersion or planningHorizon)
+    elif raw_body_json and ("schemaVersion" in raw_body_json or "planningHorizon" in raw_body_json):
+        input_json = raw_body_json
+        source = "body (raw NGRS input)"
+    
+    # Priority 4: Use uploaded file
+    elif uploaded_file_json:
+        input_json = uploaded_file_json
+        source = "uploaded file"
+    
+    if input_json is None:
+        raise HTTPException(
+            status_code=400,
+            detail="Provide either input_json in request body, raw NGRS input, or upload a JSON file."
+        )
+    
+    # Warn if multiple inputs provided
+    inputs_count = 0
+    if request_obj and request_obj.input_json is not None:
+        inputs_count += 1
+    if raw_body_json is not None:
+        inputs_count += 1
+    if uploaded_file_json is not None:
+        inputs_count += 1
+    
+    if inputs_count > 1:
+        warnings.append(f"Multiple inputs provided; used {source}.")
+    
+    return input_json, warnings
+
+
+# ============================================================================
+# ENDPOINTS
+# ============================================================================
+
+@app.get("/health", response_model=HealthResponse)
+async def health():
+    """Health check endpoint."""
+    return HealthResponse(status="ok")
+
+
+@app.get("/version")
+async def get_version():
+    """Get API and solver version information."""
+    return {
+        "apiVersion": "0.1.0",
+        "solverVersion": "optfold-py-0.4.2",
+        "schemaVersion": "0.43",
+        "timestamp": datetime.now().isoformat()
+    }
+
+
+@app.post("/solve", response_model=SolveResponse, response_class=ORJSONResponse)
+async def solve_endpoint(
+    request: Request,
+    file: Optional[UploadFile] = File(None),
+    time_limit: int = Query(15, ge=1, le=120),
+    strict: int = Query(0, ge=0, le=1),
+    validate: int = Query(0, ge=0, le=1),
+):
+    """
+    Solve a scheduling problem.
+    
+    Accepts input via:
+    - JSON body: {"input_json": {...}} or raw NGRS input
+    - Uploaded file: multipart/form-data with file field
+    
+    Query parameters:
+    - time_limit: Max solve time in seconds (1-120, default 15)
+    - strict: If 1, error if both body and file provided (default 0)
+    - validate: If 1, validate input against schema (default 0)
+    
+    Returns:
+    - 200: Solution found (regardless of solver status)
+    - 400: Invalid input (missing input, or strict mode both provided)
+    - 422: Malformed JSON or validation error
+    - 500: Internal server error
+    """
+    
+    request_id = request.state.request_id
+    start_time = time.perf_counter()
+    warnings = []
+    
+    try:
+        # ====== PARSE INPUT ======
+        # Extract raw body JSON to support both wrapped and raw formats
+        raw_body_json = None
+        if request.headers.get("content-type", "").startswith("application/json"):
+            try:
+                raw_body = await request.body()
+                if raw_body:
+                    raw_body_json = json.loads(raw_body)
+            except Exception:
+                raw_body_json = None
+        
+        uploaded_json = None
+        if file:
+            uploaded_json = await load_json_from_upload(file)
+        
+        # Check for dual input and strict mode
+        has_body = raw_body_json is not None
+        has_file = uploaded_json is not None
+        
+        if has_body and has_file and strict:
+            raise HTTPException(
+                status_code=400,
+                detail="Provide either input_json or file, not both (strict mode enabled)."
+            )
+        
+        # Get input JSON and collect warnings
+        # Pass raw_body_json to support both wrapped {"input_json": {...}} and raw NGRS input
+        input_json, input_warnings = get_input_json(None, uploaded_json, raw_body_json)
+        warnings.extend(input_warnings)
+        
+        # ====== LOAD DATA ======
+        ctx = load_input(input_json)
+        ctx["timeLimit"] = time_limit
+        
+        # ====== OPTIONAL: SCHEMA VALIDATION ======
+        if validate:
+            # TODO: Add jsonschema validation if context/schemas/input.schema.json exists
+            # For now, schema validation is deferred to solver
+            pass
+        
+        # ====== SOLVE ======
+        status_code, solver_result, assignments, violations = solve(ctx)
+        
+        # ====== BUILD OUTPUT ======
+        output_dict = build_output(
+            input_json, ctx, status_code, solver_result, assignments, violations
+        )
+        
+        # ====== ENRICH RESPONSE ======
+        output_dict["meta"]["requestId"] = request_id
+        output_dict["meta"]["warnings"] = warnings
+        
+        # ====== SAVE OUTPUT TO FILE ======
+        try:
+            timestamp = datetime.now().strftime("%d%m_%H%M")
+            outfile_name = f"output_{timestamp}.json"
+            outfile_path = pathlib.Path("output") / outfile_name
+            outfile_path.parent.mkdir(parents=True, exist_ok=True)
+            outfile_path.write_text(json.dumps(output_dict, indent=2), encoding="utf-8")
+            logger.info("solve output saved to %s", outfile_path)
+        except Exception as e:
+            logger.warning("Failed to save output file: %s", str(e))
+        
+        # ====== LOG ======
+        elapsed_ms = int((time.perf_counter() - start_time) * 1000)
+        logger.info(
+            "solve requestId=%s status=%s hard=%s soft=%s assignments=%s durMs=%s",
+            request_id,
+            output_dict["solverRun"]["status"],
+            output_dict["score"]["hard"],
+            output_dict["score"]["soft"],
+            len(assignments),
+            elapsed_ms
+        )
+        
+        return SolveResponse(**output_dict)
+    
+    except HTTPException:
+        raise
+    
+    except Exception as e:
+        elapsed_ms = int((time.perf_counter() - start_time) * 1000)
+        error_msg = f"Internal error: {str(e)}"
+        logger.error(
+            "solve requestId=%s error=%s durMs=%s",
+            request_id,
+            str(e),
+            elapsed_ms,
+            exc_info=True
+        )
+        raise HTTPException(status_code=500, detail=error_msg)
+
+
+@app.get("/schema")
+async def get_schemas():
+    """
+    Get JSON schemas for input and output validation.
+    
+    Returns schemas from context/schemas/ directory if available.
+    """
+    # TODO: Load actual schemas from context/schemas/
+    return {
+        "inputSchema": {
+            "description": "NGRS input schema (v0.43)"
+        },
+        "outputSchema": {
+            "description": "NGRS output schema (v0.43)"
+        }
+    }
+
+
+@app.post("/configure", response_class=ORJSONResponse)
+async def configure_endpoint(
+    request: Request,
+    file: Optional[UploadFile] = File(None),
+):
+    """
+    Configuration Optimizer: Find optimal work patterns and staffing.
+    
+    This endpoint analyzes requirements and suggests:
+    1. Optimal work patterns for each requirement
+    2. Minimum employee count needed
+    3. Recommended rotation offsets for maximum coverage
+    
+    Accepts simplified input via:
+    - JSON body: {"requirements": [...], "constraints": {...}, "planningHorizon": {...}}
+    - Uploaded file: multipart/form-data with file field
+    
+    Returns:
+    - 200: Optimized configuration with recommendations
+    - 400: Invalid input
+    - 422: Malformed JSON
+    - 500: Internal server error
+    """
+    
+    request_id = request.state.request_id
+    start_time = time.perf_counter()
+    
+    try:
+        # ====== PARSE INPUT ======
+        raw_body_json = None
+        if request.headers.get("content-type", "").startswith("application/json"):
+            try:
+                raw_body = await request.body()
+                if raw_body:
+                    raw_body_json = json.loads(raw_body)
+            except Exception:
+                raw_body_json = None
+        
+        uploaded_json = None
+        if file:
+            uploaded_json = await load_json_from_upload(file)
+        
+        # Select input
+        config_input = uploaded_json if uploaded_json else raw_body_json
+        
+        if config_input is None:
+            raise HTTPException(
+                status_code=400,
+                detail="Provide either JSON body or upload a JSON file with requirements, constraints, and planningHorizon."
+            )
+        
+        # Validate required fields
+        if "requirements" not in config_input:
+            raise HTTPException(
+                status_code=400,
+                detail="Missing 'requirements' field in input."
+            )
+        if "planningHorizon" not in config_input:
+            raise HTTPException(
+                status_code=400,
+                detail="Missing 'planningHorizon' field in input."
+            )
+        
+        # Use default constraints if not provided
+        constraints = config_input.get("constraints", {})
+        
+        # ====== OPTIMIZE ======
+        optimized_result = optimize_all_requirements(
+            requirements=config_input["requirements"],
+            constraints=constraints,
+            planning_horizon=config_input["planningHorizon"]
+        )
+        
+        # ====== FORMAT OUTPUT ======
+        output_config = format_output_config(
+            optimized_result,
+            config_input["requirements"]
+        )
+        
+        # ====== ENRICH RESPONSE ======
+        output_config["meta"] = {
+            "requestId": request_id,
+            "timestamp": datetime.now().isoformat(),
+            "processingTimeMs": int((time.perf_counter() - start_time) * 1000)
+        }
+        
+        # ====== LOG ======
+        elapsed_ms = int((time.perf_counter() - start_time) * 1000)
+        logger.info(
+            "configure requestId=%s totalRequirements=%s totalEmployees=%s durMs=%s",
+            request_id,
+            output_config["summary"]["totalRequirements"],
+            output_config["summary"]["totalEmployees"],
+            elapsed_ms
+        )
+        
+        return output_config
+    
+    except HTTPException:
+        raise
+    
+    except Exception as e:
+        elapsed_ms = int((time.perf_counter() - start_time) * 1000)
+        error_msg = f"Configuration optimization error: {str(e)}"
+        logger.error(
+            "configure requestId=%s error=%s durMs=%s",
+            request_id,
+            str(e),
+            elapsed_ms,
+            exc_info=True
+        )
+        raise HTTPException(status_code=500, detail=error_msg)
+
+
+# ============================================================================
+# ERROR HANDLERS
+# ============================================================================
+
+@app.exception_handler(Exception)
+async def general_exception_handler(request: Request, exc: Exception):
+    """Catch-all exception handler."""
+    request_id = getattr(request.state, "request_id", "unknown")
+    logger.error(
+        "Unhandled exception requestId=%s: %s",
+        request_id,
+        str(exc),
+        exc_info=True
+    )
+    return {
+        "status": "ERROR",
+        "error": "Internal server error",
+        "meta": {
+            "requestId": request_id,
+            "timestamp": datetime.now().isoformat()
+        }
+    }
+
+
+# ============================================================================
+# MAIN
+# ============================================================================
+
+if __name__ == "__main__":
+    import uvicorn
+    
+    port = int(os.getenv("PORT", "8080"))
+    uvicorn.run(
+        app,
+        host="0.0.0.0",
+        port=port,
+        log_level="info"
+    )

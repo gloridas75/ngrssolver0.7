@@ -1,0 +1,83 @@
+{
+  "title": "NGRS Constraint Solver Context Pack",
+  "version": "1.0",
+  "generated_at": "2025-11-11T04:16:37.432079Z",
+  "purpose": "Give Claude Code a persistent, structured context focused on Python Constraint Solver work for NGRS.",
+  "scope": {
+    "includes": [
+      "hard/soft constraints",
+      "rotation patterns",
+      "delta-solve",
+      "OU grouping",
+      "schemas"
+    ],
+    "excludes": [
+      "UI, full SAP integration code, non-solver modules"
+    ]
+  },
+  "planning_objects": [
+    "Employee",
+    "DemandItem",
+    "Assignment",
+    "Team",
+    "Calendar"
+  ],
+  "constraints": {
+    "hard": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16"
+    ],
+    "soft": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16"
+    ]
+  },
+  "delta_solve": {
+    "strategy": "Preserve published assignments, re-optimize only new/changed segments"
+  },
+  "files": [
+    "README.md",
+    "glossary.md",
+    "domain/planning_objects.md",
+    "domain/rotation_patterns.md",
+    "engine/solver_engine.py",
+    "engine/data_loader.py",
+    "engine/score_helpers.py",
+    "constraints/*.py",
+    "scoring/solverScoreConfig.yaml",
+    "schemas/input.schema.json",
+    "schemas/output.schema.json",
+    "samples/input.sample.json",
+    "samples/output.sample.json",
+    "workflows/*.md",
+    "tests/test_constraints_smoke.py"
+  ]
+}

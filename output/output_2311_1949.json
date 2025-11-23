@@ -1,0 +1,5971 @@
+{
+  "schemaVersion": "0.4",
+  "planningReference": "NGRS_COMPLEX_ROSTER_MULTITEAM",
+  "publicHolidays": [
+    "2025-12-25"
+  ],
+  "solverRun": {
+    "runId": "SRN-local-0.4",
+    "solverVersion": "optfold-py-0.4.2",
+    "startedAt": "2025-11-23T19:49:03.557710",
+    "ended": "2025-11-23T19:49:03.733364",
+    "durationSeconds": 0.176,
+    "status": "OPTIMAL"
+  },
+  "score": {
+    "overall": 0,
+    "hard": 0,
+    "soft": 0
+  },
+  "scoreBreakdown": {
+    "hard": {
+      "violations": []
+    },
+    "soft": {
+      "totalPenalty": 0,
+      "details": []
+    },
+    "unassignedSlots": {
+      "count": 0,
+      "total": 240,
+      "percentage": 0.0,
+      "slots": []
+    }
+  },
+  "assignments": [
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-01",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-01-f6b2d6",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-01T08:00:00",
+      "endDateTime": "2025-12-01T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-02",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-02-215dea",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-02T08:00:00",
+      "endDateTime": "2025-12-02T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-03",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-03-bd6ec6",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-03T08:00:00",
+      "endDateTime": "2025-12-03T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-04",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-04-5c10cb",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-04T08:00:00",
+      "endDateTime": "2025-12-04T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-05",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-05-d42479",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-05T08:00:00",
+      "endDateTime": "2025-12-05T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-06",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-06-6828a0",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-06T08:00:00",
+      "endDateTime": "2025-12-06T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-07",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-07-48e1f4",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-07T08:00:00",
+      "endDateTime": "2025-12-07T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-08",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-08-36cced",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-08T08:00:00",
+      "endDateTime": "2025-12-08T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-09",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-09-e0cc39",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-09T08:00:00",
+      "endDateTime": "2025-12-09T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-10",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-10-2686ab",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-10T08:00:00",
+      "endDateTime": "2025-12-10T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-11",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-11-945239",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-11T08:00:00",
+      "endDateTime": "2025-12-11T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-12",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-12-064691",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-12T08:00:00",
+      "endDateTime": "2025-12-12T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-13",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-13-a89ffb",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-13T08:00:00",
+      "endDateTime": "2025-12-13T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-14",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-14-f02bbb",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-14T08:00:00",
+      "endDateTime": "2025-12-14T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-15",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-15-07574b",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-15T08:00:00",
+      "endDateTime": "2025-12-15T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-16",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-16-9a605c",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-16T08:00:00",
+      "endDateTime": "2025-12-16T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-17",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-17-08d0dd",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-17T08:00:00",
+      "endDateTime": "2025-12-17T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-18",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-18-964df0",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-18T08:00:00",
+      "endDateTime": "2025-12-18T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-19",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-19-3674b6",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-19T08:00:00",
+      "endDateTime": "2025-12-19T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-20",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-20-8a77b5",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-20T08:00:00",
+      "endDateTime": "2025-12-20T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-21",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-21-b24af1",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-21T08:00:00",
+      "endDateTime": "2025-12-21T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-22",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-22-66a4bc",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-22T08:00:00",
+      "endDateTime": "2025-12-22T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-23",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-23-eacc20",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-23T08:00:00",
+      "endDateTime": "2025-12-23T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-24",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-24-fa1069",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-24T08:00:00",
+      "endDateTime": "2025-12-24T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-26",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-26-e95a98",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-26T08:00:00",
+      "endDateTime": "2025-12-26T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-27",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-27-575790",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-27T08:00:00",
+      "endDateTime": "2025-12-27T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-28",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-28-dc3e09",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-28T08:00:00",
+      "endDateTime": "2025-12-28T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-29",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-29-c03851",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-29T08:00:00",
+      "endDateTime": "2025-12-29T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-30",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-30-2cbc17",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-30T08:00:00",
+      "endDateTime": "2025-12-30T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-31",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P0-2025-12-31-c9bd13",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-31T08:00:00",
+      "endDateTime": "2025-12-31T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-01",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-01-48c450",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-01T08:00:00",
+      "endDateTime": "2025-12-01T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-02",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-02-601a2c",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-02T08:00:00",
+      "endDateTime": "2025-12-02T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-03",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-03-5ed5c7",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-03T08:00:00",
+      "endDateTime": "2025-12-03T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-04",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-04-dd8884",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-04T08:00:00",
+      "endDateTime": "2025-12-04T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-05",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-05-b17a61",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-05T08:00:00",
+      "endDateTime": "2025-12-05T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-06",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-06-7f0aab",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-06T08:00:00",
+      "endDateTime": "2025-12-06T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-07",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-07-f4a2b3",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-07T08:00:00",
+      "endDateTime": "2025-12-07T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-08",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-08-8d0658",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-08T08:00:00",
+      "endDateTime": "2025-12-08T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-09",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-09-bd20da",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-09T08:00:00",
+      "endDateTime": "2025-12-09T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-10",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-10-718f7a",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-10T08:00:00",
+      "endDateTime": "2025-12-10T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-11",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-11-7b906b",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-11T08:00:00",
+      "endDateTime": "2025-12-11T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-12",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-12-293671",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-12T08:00:00",
+      "endDateTime": "2025-12-12T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-13",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-13-d8f2f9",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-13T08:00:00",
+      "endDateTime": "2025-12-13T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-14",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-14-4d2d37",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-14T08:00:00",
+      "endDateTime": "2025-12-14T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-15",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-15-d56998",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-15T08:00:00",
+      "endDateTime": "2025-12-15T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-16",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-16-20fbdd",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-16T08:00:00",
+      "endDateTime": "2025-12-16T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-17",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-17-9db927",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-17T08:00:00",
+      "endDateTime": "2025-12-17T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-18",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-18-d970dd",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-18T08:00:00",
+      "endDateTime": "2025-12-18T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-19",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-19-d39704",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-19T08:00:00",
+      "endDateTime": "2025-12-19T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-20",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-20-ff2a05",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-20T08:00:00",
+      "endDateTime": "2025-12-20T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-21",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-21-768778",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-21T08:00:00",
+      "endDateTime": "2025-12-21T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-22",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-22-ba5fb6",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-22T08:00:00",
+      "endDateTime": "2025-12-22T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-23",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-23-c268f9",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-23T08:00:00",
+      "endDateTime": "2025-12-23T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-24",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-24-0cf499",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-24T08:00:00",
+      "endDateTime": "2025-12-24T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-26",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-26-53cacd",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-26T08:00:00",
+      "endDateTime": "2025-12-26T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-27",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-27-307b0e",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-27T08:00:00",
+      "endDateTime": "2025-12-27T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-28",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-28-6b1b94",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-28T08:00:00",
+      "endDateTime": "2025-12-28T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-29",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-29-1da777",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-29T08:00:00",
+      "endDateTime": "2025-12-29T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-30",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-30-28c2ed",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-30T08:00:00",
+      "endDateTime": "2025-12-30T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-31",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P1-2025-12-31-4fe672",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-31T08:00:00",
+      "endDateTime": "2025-12-31T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-01",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-01-f79abd",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-01T08:00:00",
+      "endDateTime": "2025-12-01T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-02",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-02-1502b7",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-02T08:00:00",
+      "endDateTime": "2025-12-02T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-03",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-03-9650c8",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-03T08:00:00",
+      "endDateTime": "2025-12-03T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-04",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-04-9bc273",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-04T08:00:00",
+      "endDateTime": "2025-12-04T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-05",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-05-6d773d",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-05T08:00:00",
+      "endDateTime": "2025-12-05T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-06",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-06-c2cfca",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-06T08:00:00",
+      "endDateTime": "2025-12-06T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-07",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-07-e6f4f1",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-07T08:00:00",
+      "endDateTime": "2025-12-07T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-08",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-08-ae3584",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-08T08:00:00",
+      "endDateTime": "2025-12-08T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-09",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-09-d86308",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-09T08:00:00",
+      "endDateTime": "2025-12-09T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-10",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-10-8531e9",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-10T08:00:00",
+      "endDateTime": "2025-12-10T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-11",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-11-32c783",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-11T08:00:00",
+      "endDateTime": "2025-12-11T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-12",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-12-d7d60b",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-12T08:00:00",
+      "endDateTime": "2025-12-12T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-13",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-13-37b992",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-13T08:00:00",
+      "endDateTime": "2025-12-13T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-14",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-14-4b59a0",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-14T08:00:00",
+      "endDateTime": "2025-12-14T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-15",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-15-e59d8c",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-15T08:00:00",
+      "endDateTime": "2025-12-15T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-16",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-16-9a7244",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-16T08:00:00",
+      "endDateTime": "2025-12-16T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-17",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-17-9a7a08",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-17T08:00:00",
+      "endDateTime": "2025-12-17T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-18",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-18-cf7bf5",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-18T08:00:00",
+      "endDateTime": "2025-12-18T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-19",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-19-052182",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-19T08:00:00",
+      "endDateTime": "2025-12-19T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-20",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-20-8e06cb",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-20T08:00:00",
+      "endDateTime": "2025-12-20T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-21",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-21-3de9a8",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-21T08:00:00",
+      "endDateTime": "2025-12-21T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-22",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-22-6836d4",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-22T08:00:00",
+      "endDateTime": "2025-12-22T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-23",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-23-aeb313",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-23T08:00:00",
+      "endDateTime": "2025-12-23T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-24",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-24-6b9d19",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-24T08:00:00",
+      "endDateTime": "2025-12-24T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-26",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-26-871849",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-26T08:00:00",
+      "endDateTime": "2025-12-26T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-27",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-27-8116d3",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-27T08:00:00",
+      "endDateTime": "2025-12-27T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-28",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-28-86b9eb",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-28T08:00:00",
+      "endDateTime": "2025-12-28T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-29",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-29-96b6c0",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-29T08:00:00",
+      "endDateTime": "2025-12-29T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-30",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-30-a87b33",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-30T08:00:00",
+      "endDateTime": "2025-12-30T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-31",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P2-2025-12-31-596c34",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-31T08:00:00",
+      "endDateTime": "2025-12-31T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-01",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-01-f7fd6c",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-01T08:00:00",
+      "endDateTime": "2025-12-01T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-02",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-02-7e1320",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-02T08:00:00",
+      "endDateTime": "2025-12-02T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-03",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-03-0cf78e",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-03T08:00:00",
+      "endDateTime": "2025-12-03T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-04",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-04-213769",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-04T08:00:00",
+      "endDateTime": "2025-12-04T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-05",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-05-dd84e5",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-05T08:00:00",
+      "endDateTime": "2025-12-05T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-06",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-06-e03ee6",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-06T08:00:00",
+      "endDateTime": "2025-12-06T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-07",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-07-85fa1c",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-07T08:00:00",
+      "endDateTime": "2025-12-07T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-08",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-08-485325",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-08T08:00:00",
+      "endDateTime": "2025-12-08T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-D-ALPHA_006",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-09",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-09-c05f19",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-09T08:00:00",
+      "endDateTime": "2025-12-09T20:00:00",
+      "employeeId": "ALPHA_006",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-10",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-10-8970ab",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-10T08:00:00",
+      "endDateTime": "2025-12-10T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-11",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-11-c947ad",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-11T08:00:00",
+      "endDateTime": "2025-12-11T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-12",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-12-16d8db",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-12T08:00:00",
+      "endDateTime": "2025-12-12T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-13",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-13-cb41b3",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-13T08:00:00",
+      "endDateTime": "2025-12-13T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-14",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-14-a093a4",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-14T08:00:00",
+      "endDateTime": "2025-12-14T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-15",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-15-f073d9",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-15T08:00:00",
+      "endDateTime": "2025-12-15T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-16",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-16-1c6f47",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-16T08:00:00",
+      "endDateTime": "2025-12-16T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-17",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-17-cb8c7f",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-17T08:00:00",
+      "endDateTime": "2025-12-17T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-18",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-18-5fee6e",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-18T08:00:00",
+      "endDateTime": "2025-12-18T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-D-ALPHA_004",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-19",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-19-87e814",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-19T08:00:00",
+      "endDateTime": "2025-12-19T20:00:00",
+      "employeeId": "ALPHA_004",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-20",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-20-0d66bf",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-20T08:00:00",
+      "endDateTime": "2025-12-20T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-21",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-21-c6940a",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-21T08:00:00",
+      "endDateTime": "2025-12-21T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-22",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-22-d04bc1",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-22T08:00:00",
+      "endDateTime": "2025-12-22T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-D-ALPHA_002",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-23",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-23-9e1586",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-23T08:00:00",
+      "endDateTime": "2025-12-23T20:00:00",
+      "employeeId": "ALPHA_002",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-24",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-24-7839f6",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-24T08:00:00",
+      "endDateTime": "2025-12-24T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-26",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-26-4d55e3",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-26T08:00:00",
+      "endDateTime": "2025-12-26T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-27",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-27-929e42",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-27T08:00:00",
+      "endDateTime": "2025-12-27T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-D-ALPHA_001",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-28",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-28-058ad6",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-28T08:00:00",
+      "endDateTime": "2025-12-28T20:00:00",
+      "employeeId": "ALPHA_001",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-D-ALPHA_003",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-29",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-29-294367",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-29T08:00:00",
+      "endDateTime": "2025-12-29T20:00:00",
+      "employeeId": "ALPHA_003",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-30",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-30-cc08d3",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-30T08:00:00",
+      "endDateTime": "2025-12-30T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-D-ALPHA_005",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1234",
+      "date": "2025-12-31",
+      "shiftId": "D",
+      "slotId": "D_PATROL_DAY_ALPHA-1234-D-P3-2025-12-31-9dde1c",
+      "shiftCode": "D",
+      "startDateTime": "2025-12-31T08:00:00",
+      "endDateTime": "2025-12-31T20:00:00",
+      "employeeId": "ALPHA_005",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-01",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-01-d3ca5b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-01T20:00:00",
+      "endDateTime": "2025-12-02T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-02",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-02-d0c9f7",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-02T20:00:00",
+      "endDateTime": "2025-12-03T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-03",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-03-e64743",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-03T20:00:00",
+      "endDateTime": "2025-12-04T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-04",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-04-af6d2b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-04T20:00:00",
+      "endDateTime": "2025-12-05T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-05",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-05-9ebdd0",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-05T20:00:00",
+      "endDateTime": "2025-12-06T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-06",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-06-496509",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-06T20:00:00",
+      "endDateTime": "2025-12-07T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-07",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-07-f86a16",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-07T20:00:00",
+      "endDateTime": "2025-12-08T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-08",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-08-598c17",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-08T20:00:00",
+      "endDateTime": "2025-12-09T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-09",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-09-bd70a5",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-09T20:00:00",
+      "endDateTime": "2025-12-10T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-10",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-10-15eb6b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-10T20:00:00",
+      "endDateTime": "2025-12-11T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-11",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-11-ef3414",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-11T20:00:00",
+      "endDateTime": "2025-12-12T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-12",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-12-5253e2",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-12T20:00:00",
+      "endDateTime": "2025-12-13T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-13",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-13-27556e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-13T20:00:00",
+      "endDateTime": "2025-12-14T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-14",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-14-55078d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-14T20:00:00",
+      "endDateTime": "2025-12-15T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-15",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-15-39542a",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-15T20:00:00",
+      "endDateTime": "2025-12-16T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-16",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-16-554f56",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-16T20:00:00",
+      "endDateTime": "2025-12-17T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-17",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-17-c7b1b3",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-17T20:00:00",
+      "endDateTime": "2025-12-18T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-18",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-18-22771e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-18T20:00:00",
+      "endDateTime": "2025-12-19T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-19",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-19-86b1b8",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-19T20:00:00",
+      "endDateTime": "2025-12-20T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-20",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-20-3b3b26",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-20T20:00:00",
+      "endDateTime": "2025-12-21T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-21",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-21-e378a6",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-21T20:00:00",
+      "endDateTime": "2025-12-22T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-22",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-22-476290",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-22T20:00:00",
+      "endDateTime": "2025-12-23T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-23",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-23-fde139",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-23T20:00:00",
+      "endDateTime": "2025-12-24T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-24",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-24-f55d50",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-24T20:00:00",
+      "endDateTime": "2025-12-25T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-26",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-26-a0359c",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-26T20:00:00",
+      "endDateTime": "2025-12-27T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-27",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-27-aa36c6",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-27T20:00:00",
+      "endDateTime": "2025-12-28T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-28",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-28-86d714",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-28T20:00:00",
+      "endDateTime": "2025-12-29T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-29",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-29-89774d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-29T20:00:00",
+      "endDateTime": "2025-12-30T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-N-ALPHA_008",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-30",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-30-d50a11",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-30T20:00:00",
+      "endDateTime": "2025-12-31T08:00:00",
+      "employeeId": "ALPHA_008",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-N-ALPHA_007",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1235",
+      "date": "2025-12-31",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1235-N-P0-2025-12-31-0f2b2e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-31T20:00:00",
+      "endDateTime": "2026-01-01T08:00:00",
+      "employeeId": "ALPHA_007",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-01",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-01-12a858",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-01T20:00:00",
+      "endDateTime": "2025-12-02T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-02",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-02-af2a2e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-02T20:00:00",
+      "endDateTime": "2025-12-03T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-03",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-03-bd5442",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-03T20:00:00",
+      "endDateTime": "2025-12-04T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-04",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-04-a60d5d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-04T20:00:00",
+      "endDateTime": "2025-12-05T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-05",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-05-28370e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-05T20:00:00",
+      "endDateTime": "2025-12-06T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-06",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-06-eb5837",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-06T20:00:00",
+      "endDateTime": "2025-12-07T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-07",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-07-e26ce5",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-07T20:00:00",
+      "endDateTime": "2025-12-08T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-08",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-08-22f2f1",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-08T20:00:00",
+      "endDateTime": "2025-12-09T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-09",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-09-017b64",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-09T20:00:00",
+      "endDateTime": "2025-12-10T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-10",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-10-84f173",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-10T20:00:00",
+      "endDateTime": "2025-12-11T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-11",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-11-fec5b7",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-11T20:00:00",
+      "endDateTime": "2025-12-12T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-12",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-12-f4d3f8",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-12T20:00:00",
+      "endDateTime": "2025-12-13T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-13",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-13-0d10bd",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-13T20:00:00",
+      "endDateTime": "2025-12-14T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-14",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-14-95664d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-14T20:00:00",
+      "endDateTime": "2025-12-15T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-15",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-15-c44311",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-15T20:00:00",
+      "endDateTime": "2025-12-16T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-16",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-16-6ff98b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-16T20:00:00",
+      "endDateTime": "2025-12-17T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-17",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-17-3f111b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-17T20:00:00",
+      "endDateTime": "2025-12-18T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-18",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-18-2a133d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-18T20:00:00",
+      "endDateTime": "2025-12-19T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-19",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-19-11e8e1",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-19T20:00:00",
+      "endDateTime": "2025-12-20T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-20",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-20-18cd78",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-20T20:00:00",
+      "endDateTime": "2025-12-21T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-21",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-21-dc89ea",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-21T20:00:00",
+      "endDateTime": "2025-12-22T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-22",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-22-d2bb2d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-22T20:00:00",
+      "endDateTime": "2025-12-23T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-23",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-23-a2f05c",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-23T20:00:00",
+      "endDateTime": "2025-12-24T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-24",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-24-ed871b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-24T20:00:00",
+      "endDateTime": "2025-12-25T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-26",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-26-8c7ca8",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-26T20:00:00",
+      "endDateTime": "2025-12-27T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-27",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-27-008901",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-27T20:00:00",
+      "endDateTime": "2025-12-28T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-28",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-28-22c402",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-28T20:00:00",
+      "endDateTime": "2025-12-29T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-29",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-29-6145a8",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-29T20:00:00",
+      "endDateTime": "2025-12-30T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-30",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-30-e3c91b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-30T20:00:00",
+      "endDateTime": "2025-12-31T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1236",
+      "date": "2025-12-31",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1236-N-P0-2025-12-31-645861",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-31T20:00:00",
+      "endDateTime": "2026-01-01T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-01",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-01-a00193",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-01T20:00:00",
+      "endDateTime": "2025-12-02T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-02",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-02-003ec0",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-02T20:00:00",
+      "endDateTime": "2025-12-03T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-03",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-03-bcf1b9",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-03T20:00:00",
+      "endDateTime": "2025-12-04T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-04",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-04-ce8e0e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-04T20:00:00",
+      "endDateTime": "2025-12-05T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-05",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-05-62e0ec",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-05T20:00:00",
+      "endDateTime": "2025-12-06T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-06",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-06-ae3e94",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-06T20:00:00",
+      "endDateTime": "2025-12-07T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-07",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-07-ee7734",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-07T20:00:00",
+      "endDateTime": "2025-12-08T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-08",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-08-d11997",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-08T20:00:00",
+      "endDateTime": "2025-12-09T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-09",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-09-36d48b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-09T20:00:00",
+      "endDateTime": "2025-12-10T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-10",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-10-ad935e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-10T20:00:00",
+      "endDateTime": "2025-12-11T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-11",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-11-1e302f",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-11T20:00:00",
+      "endDateTime": "2025-12-12T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-12",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-12-ffffee",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-12T20:00:00",
+      "endDateTime": "2025-12-13T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-13",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-13-39e46d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-13T20:00:00",
+      "endDateTime": "2025-12-14T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-14",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-14-7cb865",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-14T20:00:00",
+      "endDateTime": "2025-12-15T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-15",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-15-84a341",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-15T20:00:00",
+      "endDateTime": "2025-12-16T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-16",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-16-e5460e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-16T20:00:00",
+      "endDateTime": "2025-12-17T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-17",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-17-c15c1c",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-17T20:00:00",
+      "endDateTime": "2025-12-18T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-18",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-18-6f4b27",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-18T20:00:00",
+      "endDateTime": "2025-12-19T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-19",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-19-be0aef",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-19T20:00:00",
+      "endDateTime": "2025-12-20T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-20",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-20-482dbe",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-20T20:00:00",
+      "endDateTime": "2025-12-21T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-21",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-21-94fb97",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-21T20:00:00",
+      "endDateTime": "2025-12-22T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-22",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-22-f58181",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-22T20:00:00",
+      "endDateTime": "2025-12-23T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-23",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-23-e89453",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-23T20:00:00",
+      "endDateTime": "2025-12-24T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-24",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-24-a72c56",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-24T20:00:00",
+      "endDateTime": "2025-12-25T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-26",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-26-5b3108",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-26T20:00:00",
+      "endDateTime": "2025-12-27T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-27",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-27-4c2063",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-27T20:00:00",
+      "endDateTime": "2025-12-28T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-28",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-28-f49f6f",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-28T20:00:00",
+      "endDateTime": "2025-12-29T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-29",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-29-1f25dc",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-29T20:00:00",
+      "endDateTime": "2025-12-30T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-30",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-30-c2b84a",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-30T20:00:00",
+      "endDateTime": "2025-12-31T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1237",
+      "date": "2025-12-31",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1237-N-P0-2025-12-31-3cac6d",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-31T20:00:00",
+      "endDateTime": "2026-01-01T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-01-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-01",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-01-ea1bee",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-01T20:00:00",
+      "endDateTime": "2025-12-02T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-02-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-02",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-02-671a6b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-02T20:00:00",
+      "endDateTime": "2025-12-03T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-03-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-03",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-03-5bd3c3",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-03T20:00:00",
+      "endDateTime": "2025-12-04T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-04-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-04",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-04-b36f24",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-04T20:00:00",
+      "endDateTime": "2025-12-05T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-05-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-05",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-05-d44a7e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-05T20:00:00",
+      "endDateTime": "2025-12-06T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-06-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-06",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-06-c0fb09",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-06T20:00:00",
+      "endDateTime": "2025-12-07T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-07-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-07",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-07-5e4154",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-07T20:00:00",
+      "endDateTime": "2025-12-08T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-08-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-08",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-08-5d6d98",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-08T20:00:00",
+      "endDateTime": "2025-12-09T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-09-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-09",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-09-dbd4c8",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-09T20:00:00",
+      "endDateTime": "2025-12-10T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-10-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-10",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-10-fff8de",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-10T20:00:00",
+      "endDateTime": "2025-12-11T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-11-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-11",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-11-c0023b",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-11T20:00:00",
+      "endDateTime": "2025-12-12T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-12-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-12",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-12-183985",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-12T20:00:00",
+      "endDateTime": "2025-12-13T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-13-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-13",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-13-aeb025",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-13T20:00:00",
+      "endDateTime": "2025-12-14T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-14-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-14",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-14-e019c4",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-14T20:00:00",
+      "endDateTime": "2025-12-15T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-15-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-15",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-15-03c373",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-15T20:00:00",
+      "endDateTime": "2025-12-16T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-16-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-16",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-16-71c6d5",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-16T20:00:00",
+      "endDateTime": "2025-12-17T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-17-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-17",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-17-e1ea55",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-17T20:00:00",
+      "endDateTime": "2025-12-18T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-18-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-18",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-18-f1fb68",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-18T20:00:00",
+      "endDateTime": "2025-12-19T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-19-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-19",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-19-4ba1a8",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-19T20:00:00",
+      "endDateTime": "2025-12-20T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-20-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-20",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-20-c79f87",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-20T20:00:00",
+      "endDateTime": "2025-12-21T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-21-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-21",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-21-d7429e",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-21T20:00:00",
+      "endDateTime": "2025-12-22T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-22-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-22",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-22-366718",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-22T20:00:00",
+      "endDateTime": "2025-12-23T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-23-N-ALPHA_011",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-23",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-23-9b4448",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-23T20:00:00",
+      "endDateTime": "2025-12-24T08:00:00",
+      "employeeId": "ALPHA_011",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-24-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-24",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-24-b9254c",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-24T20:00:00",
+      "endDateTime": "2025-12-25T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-26-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-26",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-26-a20fd1",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-26T20:00:00",
+      "endDateTime": "2025-12-27T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-27-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-27",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-27-008369",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-27T20:00:00",
+      "endDateTime": "2025-12-28T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-28-N-ALPHA_010",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-28",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-28-0079dd",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-28T20:00:00",
+      "endDateTime": "2025-12-29T08:00:00",
+      "employeeId": "ALPHA_010",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-29-N-ALPHA_012",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-29",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-29-88fb93",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-29T20:00:00",
+      "endDateTime": "2025-12-30T08:00:00",
+      "employeeId": "ALPHA_012",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-30-N-ALPHA_013",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-30",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-30-ab4027",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-30T20:00:00",
+      "endDateTime": "2025-12-31T08:00:00",
+      "employeeId": "ALPHA_013",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_PATROL_DAY_ALPHA-2025-12-31-N-ALPHA_009",
+      "demandId": "D_PATROL_DAY_ALPHA",
+      "requirementId": "1238",
+      "date": "2025-12-31",
+      "shiftId": "N",
+      "slotId": "D_PATROL_DAY_ALPHA-1238-N-P0-2025-12-31-8dd3d4",
+      "shiftCode": "N",
+      "startDateTime": "2025-12-31T20:00:00",
+      "endDateTime": "2026-01-01T08:00:00",
+      "employeeId": "ALPHA_009",
+      "status": "ASSIGNED",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    }
+  ],
+  "unmetDemand": [],
+  "meta": {
+    "inputHash": "sha256:08aadd44ef3f7a2fcecc07ae3b61dd58420a46bab92a41effa7fdd0218faada8",
+    "generatedAt": "2025-11-23T19:49:03.733962",
+    "employeeHours": {
+      "ALPHA_001": {
+        "weekly_normal": {
+          "2025-W49": 40.0,
+          "2025-W51": 40.0,
+          "2025-W50": 40.0,
+          "2026-W01": 8.0,
+          "2025-W52": 32.0
+        },
+        "monthly_ot": {
+          "2025-12": 57.0,
+          "2026-12": 3.0
+        }
+      },
+      "ALPHA_005": {
+        "weekly_normal": {
+          "2025-W49": 40.0,
+          "2025-W52": 24.0,
+          "2025-W50": 40.0,
+          "2025-W51": 32.0,
+          "2026-W01": 24.0
+        },
+        "monthly_ot": {
+          "2025-12": 51.0,
+          "2026-12": 9.0
+        }
+      },
+      "ALPHA_006": {
+        "weekly_normal": {
+          "2025-W49": 40.0,
+          "2025-W50": 40.0,
+          "2026-W01": 16.0,
+          "2025-W51": 40.0,
+          "2025-W52": 24.0
+        },
+        "monthly_ot": {
+          "2025-12": 54.0,
+          "2026-12": 6.0
+        }
+      },
+      "ALPHA_004": {
+        "weekly_normal": {
+          "2025-W49": 40.0,
+          "2025-W50": 32.0,
+          "2025-W51": 32.0,
+          "2025-W52": 32.0,
+          "2026-W01": 24.0
+        },
+        "monthly_ot": {
+          "2025-12": 51.0,
+          "2026-12": 9.0
+        }
+      },
+      "ALPHA_002": {
+        "weekly_normal": {
+          "2025-W50": 40.0,
+          "2025-W51": 40.0,
+          "2025-W49": 32.0,
+          "2025-W52": 40.0,
+          "2026-W01": 8.0
+        },
+        "monthly_ot": {
+          "2025-12": 57.0,
+          "2026-12": 3.0
+        }
+      },
+      "ALPHA_003": {
+        "weekly_normal": {
+          "2025-W50": 32.0,
+          "2025-W51": 40.0,
+          "2025-W52": 40.0,
+          "2026-W01": 16.0,
+          "2025-W49": 32.0
+        },
+        "monthly_ot": {
+          "2025-12": 54.0,
+          "2026-12": 6.0
+        }
+      },
+      "ALPHA_007": {
+        "weekly_normal": {
+          "2025-W49": 24.0,
+          "2025-W50": 40.0,
+          "2025-W51": 24.0,
+          "2025-W52": 24.0,
+          "2026-W01": 8.0
+        },
+        "monthly_ot": {
+          "2025-12": 42.0,
+          "2026-12": 3.0
+        }
+      },
+      "ALPHA_008": {
+        "weekly_normal": {
+          "2025-W49": 32.0,
+          "2025-W50": 16.0,
+          "2025-W51": 32.0,
+          "2025-W52": 24.0,
+          "2026-W01": 16.0
+        },
+        "monthly_ot": {
+          "2025-12": 39.0,
+          "2026-12": 6.0
+        }
+      },
+      "ALPHA_011": {
+        "weekly_normal": {
+          "2025-W49": 32.0,
+          "2025-W50": 24.0,
+          "2025-W51": 32.0,
+          "2025-W52": 32.0
+        },
+        "monthly_ot": {
+          "2025-12": 45.0
+        }
+      },
+      "ALPHA_012": {
+        "weekly_normal": {
+          "2025-W49": 40.0,
+          "2025-W50": 32.0,
+          "2025-W51": 32.0,
+          "2025-W52": 32.0,
+          "2026-W01": 24.0
+        },
+        "monthly_ot": {
+          "2025-12": 51.0,
+          "2026-12": 9.0
+        }
+      },
+      "ALPHA_013": {
+        "weekly_normal": {
+          "2025-W49": 40.0,
+          "2025-W50": 40.0,
+          "2025-W51": 32.0,
+          "2025-W52": 8.0,
+          "2026-W01": 16.0
+        },
+        "monthly_ot": {
+          "2025-12": 45.0,
+          "2026-12": 6.0
+        }
+      },
+      "ALPHA_010": {
+        "weekly_normal": {
+          "2025-W49": 32.0,
+          "2025-W50": 40.0,
+          "2025-W51": 32.0,
+          "2026-W01": 16.0,
+          "2025-W52": 40.0
+        },
+        "monthly_ot": {
+          "2025-12": 54.0,
+          "2026-12": 6.0
+        }
+      },
+      "ALPHA_009": {
+        "weekly_normal": {
+          "2025-W52": 32.0,
+          "2026-W01": 16.0,
+          "2025-W49": 24.0,
+          "2025-W50": 32.0,
+          "2025-W51": 40.0
+        },
+        "monthly_ot": {
+          "2025-12": 48.0,
+          "2026-12": 6.0
+        }
+      }
+    }
+  }
+}

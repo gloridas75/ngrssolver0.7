@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "0.8",
+  "configType": "optimizedRosterConfiguration",
+  "generatedAt": "2025-11-23T15:32:17.002380",
+  "summary": {
+    "totalRequirements": 1,
+    "totalEmployees": 7,
+    "planningHorizon": {
+      "startDate": "2025-12-01T00:00:00",
+      "endDate": "2025-12-31T00:00:00",
+      "days": 31
+    }
+  },
+  "recommendations": [
+    {
+      "requirementId": "REQ_APO_DAY",
+      "requirementName": "APO Day Patrol",
+      "productType": "APO",
+      "rank": "APO",
+      "scheme": "P",
+      "configuration": {
+        "workPattern": [
+          "W",
+          "W",
+          "W",
+          "W",
+          "O",
+          "O"
+        ],
+        "employeesRequired": 7,
+        "rotationOffsets": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ],
+        "cycleLength": 6
+      },
+      "coverage": {
+        "expectedCoverageRate": 100.0,
+        "daysFullyCovered": 31,
+        "daysUndercovered": 0,
+        "averageAvailable": 4.68,
+        "requiredPerDay": 4
+      },
+      "quality": {
+        "balanceScore": 99.78,
+        "variance": 0.22,
+        "totalExcessCoverage": 21
+      },
+      "notes": [
+        "Pattern has 4 work days and 2 off days per 6-day cycle",
+        "✓ Achieves 100% coverage with this configuration",
+        "✓ Excellent workload balance across employees"
+      ]
+    }
+  ]
+}

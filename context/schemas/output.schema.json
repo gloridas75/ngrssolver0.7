@@ -1,0 +1,2515 @@
+{
+  "schemaVersion": "0.50",
+  "planningReference": "NGRS_OPTIMAL_MINIMAL_VIOLATIONS",
+  "solverRun": {
+    "runId": "SRN-local-0.4",
+    "solverVersion": "optfold-py-0.4.2",
+    "startedAt": "2025-11-12T15:02:08.345532",
+    "ended": "2025-11-12T15:02:08.389752",
+    "durationSeconds": 0.044,
+    "status": "OPTIMAL"
+  },
+  "score": {
+    "overall": 0,
+    "hard": 0,
+    "soft": 0
+  },
+  "scoreBreakdown": {
+    "hard": {
+      "violations": []
+    },
+    "soft": {
+      "totalPenalty": 0,
+      "details": []
+    }
+  },
+  "assignments": [
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-01-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-01",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-01-D-be0eb0",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-01T08:00:00",
+      "endDateTime": "2025-11-01T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-01-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-01",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-01-D-be0eb0",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-01T08:00:00",
+      "endDateTime": "2025-11-01T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-02-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-02",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-02-D-552909",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-02T08:00:00",
+      "endDateTime": "2025-11-02T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-02-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-02",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-02-D-552909",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-02T08:00:00",
+      "endDateTime": "2025-11-02T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-03-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-03",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-03-D-a61d30",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-03T08:00:00",
+      "endDateTime": "2025-11-03T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-03-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-03",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-03-D-a61d30",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-03T08:00:00",
+      "endDateTime": "2025-11-03T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-04-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-04",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-04-D-f4a778",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-04T08:00:00",
+      "endDateTime": "2025-11-04T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-04-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-04",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-04-D-f4a778",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-04T08:00:00",
+      "endDateTime": "2025-11-04T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-05-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-05",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-05-D-6cffc9",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-05T08:00:00",
+      "endDateTime": "2025-11-05T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-05-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-05",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-05-D-6cffc9",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-05T08:00:00",
+      "endDateTime": "2025-11-05T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-08-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-08",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-08-D-b2eb3f",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-08T08:00:00",
+      "endDateTime": "2025-11-08T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-08-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-08",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-08-D-b2eb3f",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-08T08:00:00",
+      "endDateTime": "2025-11-08T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-09-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-09",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-09-D-7fb40c",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-09T08:00:00",
+      "endDateTime": "2025-11-09T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-09-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-09",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-09-D-7fb40c",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-09T08:00:00",
+      "endDateTime": "2025-11-09T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-10-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-10",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-10-D-4b78fc",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-10T08:00:00",
+      "endDateTime": "2025-11-10T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-10-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-10",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-10-D-4b78fc",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-10T08:00:00",
+      "endDateTime": "2025-11-10T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-11-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-11",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-11-D-bc8699",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-11T08:00:00",
+      "endDateTime": "2025-11-11T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-11-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-11",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-11-D-bc8699",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-11T08:00:00",
+      "endDateTime": "2025-11-11T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-12-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-12",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-12-D-047063",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-12T08:00:00",
+      "endDateTime": "2025-11-12T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-12-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-12",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-12-D-047063",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-12T08:00:00",
+      "endDateTime": "2025-11-12T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-15-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-15",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-15-D-60eb72",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-15T08:00:00",
+      "endDateTime": "2025-11-15T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-15-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-15",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-15-D-60eb72",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-15T08:00:00",
+      "endDateTime": "2025-11-15T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-16-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-16",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-16-D-3e3644",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-16T08:00:00",
+      "endDateTime": "2025-11-16T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-16-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-16",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-16-D-3e3644",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-16T08:00:00",
+      "endDateTime": "2025-11-16T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-17-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-17",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-17-D-476cba",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-17T08:00:00",
+      "endDateTime": "2025-11-17T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-17-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-17",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-17-D-476cba",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-17T08:00:00",
+      "endDateTime": "2025-11-17T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-18-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-18",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-18-D-173356",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-18T08:00:00",
+      "endDateTime": "2025-11-18T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-18-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-18",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-18-D-173356",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-18T08:00:00",
+      "endDateTime": "2025-11-18T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-19-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-19",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-19-D-0d5d90",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-19T08:00:00",
+      "endDateTime": "2025-11-19T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-19-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-19",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-19-D-0d5d90",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-19T08:00:00",
+      "endDateTime": "2025-11-19T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-22-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-22",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-22-D-ae87cb",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-22T08:00:00",
+      "endDateTime": "2025-11-22T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-22-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-22",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-22-D-ae87cb",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-22T08:00:00",
+      "endDateTime": "2025-11-22T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-23-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-23",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-23-D-016887",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-23T08:00:00",
+      "endDateTime": "2025-11-23T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-23-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-23",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-23-D-016887",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-23T08:00:00",
+      "endDateTime": "2025-11-23T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-24-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-24",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-24-D-d89a50",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-24T08:00:00",
+      "endDateTime": "2025-11-24T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-24-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-24",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-24-D-d89a50",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-24T08:00:00",
+      "endDateTime": "2025-11-24T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-25-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-25",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-25-D-581079",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-25T08:00:00",
+      "endDateTime": "2025-11-25T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-25-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-25",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-25-D-581079",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-25T08:00:00",
+      "endDateTime": "2025-11-25T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-26-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-26",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-26-D-200b71",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-26T08:00:00",
+      "endDateTime": "2025-11-26T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-26-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-26",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-26-D-200b71",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-26T08:00:00",
+      "endDateTime": "2025-11-26T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-29-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-29",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-29-D-6cc075",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-29T08:00:00",
+      "endDateTime": "2025-11-29T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-29-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-29",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-29-D-6cc075",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-29T08:00:00",
+      "endDateTime": "2025-11-29T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-30-D-E_EVA_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-30",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-30-D-ef3efc",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-30T08:00:00",
+      "endDateTime": "2025-11-30T20:00:00",
+      "employeeId": "E_EVA_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_FRISKING-2025-11-30-D-E_FRANK_FRISKER",
+      "demandId": "D_DAY_FRISKING",
+      "date": "2025-11-30",
+      "shiftId": "D",
+      "slotId": "D_DAY_FRISKING-2025-11-30-D-ef3efc",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-30T08:00:00",
+      "endDateTime": "2025-11-30T20:00:00",
+      "employeeId": "E_FRANK_FRISKER",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-01-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-01",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-01-N-1fb95b",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-01T20:00:00",
+      "endDateTime": "2025-11-02T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-01-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-01",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-01-N-1fb95b",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-01T20:00:00",
+      "endDateTime": "2025-11-02T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-02-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-02",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-02-N-692ee6",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-02T20:00:00",
+      "endDateTime": "2025-11-03T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-02-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-02",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-02-N-692ee6",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-02T20:00:00",
+      "endDateTime": "2025-11-03T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-03-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-03",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-03-N-5ff938",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-03T20:00:00",
+      "endDateTime": "2025-11-04T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-03-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-03",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-03-N-5ff938",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-03T20:00:00",
+      "endDateTime": "2025-11-04T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-04-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-04",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-04-N-ab8335",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-04T20:00:00",
+      "endDateTime": "2025-11-05T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-04-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-04",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-04-N-ab8335",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-04T20:00:00",
+      "endDateTime": "2025-11-05T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-05-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-05",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-05-N-2bb9d3",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-05T20:00:00",
+      "endDateTime": "2025-11-06T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-05-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-05",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-05-N-2bb9d3",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-05T20:00:00",
+      "endDateTime": "2025-11-06T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-08-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-08",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-08-N-b05d1d",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-08T20:00:00",
+      "endDateTime": "2025-11-09T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-08-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-08",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-08-N-b05d1d",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-08T20:00:00",
+      "endDateTime": "2025-11-09T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-09-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-09",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-09-N-8912dd",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-09T20:00:00",
+      "endDateTime": "2025-11-10T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-09-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-09",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-09-N-8912dd",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-09T20:00:00",
+      "endDateTime": "2025-11-10T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-10-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-10",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-10-N-7de3ec",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-10T20:00:00",
+      "endDateTime": "2025-11-11T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-10-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-10",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-10-N-7de3ec",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-10T20:00:00",
+      "endDateTime": "2025-11-11T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-11-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-11",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-11-N-6a8f30",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-11T20:00:00",
+      "endDateTime": "2025-11-12T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-11-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-11",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-11-N-6a8f30",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-11T20:00:00",
+      "endDateTime": "2025-11-12T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-12-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-12",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-12-N-26ec29",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-12T20:00:00",
+      "endDateTime": "2025-11-13T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-12-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-12",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-12-N-26ec29",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-12T20:00:00",
+      "endDateTime": "2025-11-13T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-15-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-15",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-15-N-43656f",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-15T20:00:00",
+      "endDateTime": "2025-11-16T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-15-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-15",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-15-N-43656f",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-15T20:00:00",
+      "endDateTime": "2025-11-16T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-16-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-16",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-16-N-ddd5e3",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-16T20:00:00",
+      "endDateTime": "2025-11-17T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-16-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-16",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-16-N-ddd5e3",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-16T20:00:00",
+      "endDateTime": "2025-11-17T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-17-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-17",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-17-N-0e0b6e",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-17T20:00:00",
+      "endDateTime": "2025-11-18T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-17-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-17",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-17-N-0e0b6e",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-17T20:00:00",
+      "endDateTime": "2025-11-18T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-18-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-18",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-18-N-a71c4f",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-18T20:00:00",
+      "endDateTime": "2025-11-19T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-18-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-18",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-18-N-a71c4f",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-18T20:00:00",
+      "endDateTime": "2025-11-19T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-19-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-19",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-19-N-b742e5",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-19T20:00:00",
+      "endDateTime": "2025-11-20T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-19-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-19",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-19-N-b742e5",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-19T20:00:00",
+      "endDateTime": "2025-11-20T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-22-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-22",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-22-N-58e8b5",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-22T20:00:00",
+      "endDateTime": "2025-11-23T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-22-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-22",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-22-N-58e8b5",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-22T20:00:00",
+      "endDateTime": "2025-11-23T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-23-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-23",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-23-N-cc6665",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-23T20:00:00",
+      "endDateTime": "2025-11-24T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-23-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-23",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-23-N-cc6665",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-23T20:00:00",
+      "endDateTime": "2025-11-24T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-24-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-24",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-24-N-c48c16",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-24T20:00:00",
+      "endDateTime": "2025-11-25T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-24-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-24",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-24-N-c48c16",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-24T20:00:00",
+      "endDateTime": "2025-11-25T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-25-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-25",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-25-N-ed8d64",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-25T20:00:00",
+      "endDateTime": "2025-11-26T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-25-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-25",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-25-N-ed8d64",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-25T20:00:00",
+      "endDateTime": "2025-11-26T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-26-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-26",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-26-N-5e6cec",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-26T20:00:00",
+      "endDateTime": "2025-11-27T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-26-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-26",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-26-N-5e6cec",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-26T20:00:00",
+      "endDateTime": "2025-11-27T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-29-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-29",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-29-N-4855dd",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-29T20:00:00",
+      "endDateTime": "2025-11-30T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-29-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-29",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-29-N-4855dd",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-29T20:00:00",
+      "endDateTime": "2025-11-30T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-30-N-E_IRIS_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-30",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-30-N-e00cff",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-30T20:00:00",
+      "endDateTime": "2025-12-01T08:00:00",
+      "employeeId": "E_IRIS_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_NIGHT_DETENTION-2025-11-30-N-E_JACK_DETENTION",
+      "demandId": "D_NIGHT_DETENTION",
+      "date": "2025-11-30",
+      "shiftId": "N",
+      "slotId": "D_NIGHT_DETENTION-2025-11-30-N-e00cff",
+      "shiftCode": "N",
+      "startDateTime": "2025-11-30T20:00:00",
+      "endDateTime": "2025-12-01T08:00:00",
+      "employeeId": "E_JACK_DETENTION",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-01-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-01",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-01-D-418ef4",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-01T08:00:00",
+      "endDateTime": "2025-11-01T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-02-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-02",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-02-D-bebe0b",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-02T08:00:00",
+      "endDateTime": "2025-11-02T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-03-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-03",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-03-D-ddae1b",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-03T08:00:00",
+      "endDateTime": "2025-11-03T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-05-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-05",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-05-D-9966a0",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-05T08:00:00",
+      "endDateTime": "2025-11-05T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-06-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-06",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-06-D-e0348a",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-06T08:00:00",
+      "endDateTime": "2025-11-06T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-08-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-08",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-08-D-1cf95c",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-08T08:00:00",
+      "endDateTime": "2025-11-08T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-09-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-09",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-09-D-9eaac0",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-09T08:00:00",
+      "endDateTime": "2025-11-09T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-10-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-10",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-10-D-cd0e2f",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-10T08:00:00",
+      "endDateTime": "2025-11-10T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-12-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-12",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-12-D-585402",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-12T08:00:00",
+      "endDateTime": "2025-11-12T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-13-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-13",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-13-D-508316",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-13T08:00:00",
+      "endDateTime": "2025-11-13T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-15-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-15",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-15-D-a8bb2e",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-15T08:00:00",
+      "endDateTime": "2025-11-15T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-16-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-16",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-16-D-75bb04",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-16T08:00:00",
+      "endDateTime": "2025-11-16T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-17-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-17",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-17-D-db935c",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-17T08:00:00",
+      "endDateTime": "2025-11-17T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-19-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-19",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-19-D-42757d",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-19T08:00:00",
+      "endDateTime": "2025-11-19T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-20-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-20",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-20-D-8333c1",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-20T08:00:00",
+      "endDateTime": "2025-11-20T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-22-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-22",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-22-D-d8709f",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-22T08:00:00",
+      "endDateTime": "2025-11-22T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-23-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-23",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-23-D-3233d3",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-23T08:00:00",
+      "endDateTime": "2025-11-23T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-24-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-24",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-24-D-b53659",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-24T08:00:00",
+      "endDateTime": "2025-11-24T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-26-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-26",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-26-D-e8b600",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-26T08:00:00",
+      "endDateTime": "2025-11-26T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-27-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-27",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-27-D-946885",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-27T08:00:00",
+      "endDateTime": "2025-11-27T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-29-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-29",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-29-D-acd5f4",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-29T08:00:00",
+      "endDateTime": "2025-11-29T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    },
+    {
+      "assignmentId": "D_DAY_XRAY-2025-11-30-D-E_MONA_XRAY",
+      "demandId": "D_DAY_XRAY",
+      "date": "2025-11-30",
+      "shiftId": "D",
+      "slotId": "D_DAY_XRAY-2025-11-30-D-74f378",
+      "shiftCode": "D",
+      "startDateTime": "2025-11-30T08:00:00",
+      "endDateTime": "2025-11-30T20:00:00",
+      "employeeId": "E_MONA_XRAY",
+      "constraintResults": {
+        "hard": [],
+        "soft": []
+      },
+      "hours": {
+        "gross": 12.0,
+        "lunch": 1.0,
+        "normal": 8.0,
+        "ot": 3.0,
+        "paid": 12.0
+      }
+    }
+  ],
+  "unmetDemand": [],
+  "meta": {
+    "inputHash": "sha256:ee3353429f702b60006051106d467d502a6b4af9540902ea9f2481563d341adf",
+    "generatedAt": "2025-11-12T15:02:08.390131",
+    "employeeHours": {
+      "E_EVA_FRISKER": {
+        "weekly_normal": {
+          "2025-W44": 16.0,
+          "2025-W45": 40.0,
+          "2025-W46": 40.0,
+          "2025-W47": 40.0,
+          "2025-W48": 40.0
+        },
+        "monthly_ot": {
+          "2025-11": 66.0
+        }
+      },
+      "E_FRANK_FRISKER": {
+        "weekly_normal": {
+          "2025-W44": 16.0,
+          "2025-W45": 40.0,
+          "2025-W46": 40.0,
+          "2025-W47": 40.0,
+          "2025-W48": 40.0
+        },
+        "monthly_ot": {
+          "2025-11": 66.0
+        }
+      },
+      "E_IRIS_DETENTION": {
+        "weekly_normal": {
+          "2025-W44": 16.0,
+          "2025-W45": 40.0,
+          "2025-W46": 40.0,
+          "2025-W47": 40.0,
+          "2025-W48": 40.0
+        },
+        "monthly_ot": {
+          "2025-11": 66.0
+        }
+      },
+      "E_JACK_DETENTION": {
+        "weekly_normal": {
+          "2025-W44": 16.0,
+          "2025-W45": 40.0,
+          "2025-W46": 40.0,
+          "2025-W47": 40.0,
+          "2025-W48": 40.0
+        },
+        "monthly_ot": {
+          "2025-11": 66.0
+        }
+      },
+      "E_MONA_XRAY": {
+        "weekly_normal": {
+          "2025-W44": 16.0,
+          "2025-W45": 40.0,
+          "2025-W46": 40.0,
+          "2025-W47": 40.0,
+          "2025-W48": 40.0
+        },
+        "monthly_ot": {
+          "2025-11": 66.0
+        }
+      }
+    }
+  }
+}

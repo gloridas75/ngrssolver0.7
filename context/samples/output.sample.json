@@ -1,0 +1,24 @@
+{
+  "solverScore": {
+    "hard": 0,
+    "soft": -1234
+  },
+  "assignments": [
+    {
+      "employeeId": "E1",
+      "demandId": "D1",
+      "date": "2025-11-03",
+      "start": "07:30",
+      "end": "19:30",
+      "teamId": "PB-01"
+    }
+  ],
+  "violations": [
+    {
+      "type": "soft",
+      "id": "S3",
+      "note": "Slight start-time drift",
+      "penalty": 50
+    }
+  ]
+}

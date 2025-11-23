@@ -1,0 +1,35 @@
+hard:
+  C1: 100000
+  C2: 100000
+  C3: 100000
+  C4: 100000
+  C5: 100000
+  C6: 100000
+  C7: 100000
+  C8: 100000
+  C9: 100000
+  C10: 100000
+  C11: 100000
+  C12: 100000
+  C13: 1000      # capture only; not blocking by default
+  C14: 10000
+  C15: 100000
+  C16: 100000
+  C17: 100000    # Monthly OT cap (72h per employee)
+soft:
+  S1: 500
+  S2: 50
+  S3: 50
+  S4: 200
+  S5: 100
+  S6: 75
+  S7: 50
+  S8: 150
+  S9: 25
+  S10: 60
+  S11: 120
+  S12: 40
+  S13: 80
+  S14: 200
+  S15: -1000   # maximize coverage (negative penalty == reward)
+  S16: 300

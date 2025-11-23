@@ -1,0 +1,9 @@
+[project]
+name = "ngrssolver"
+version = "0.7.0"
+requires-python = ">=3.10"
+dependencies = ["ortools","pydantic","jsonschema"]
+
+[tool.pytest.ini_options]
+pythonpath = ["context","src"]
+addopts = "-q"

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "0.43",
+  "planningHorizon": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "calendar": {
+    "publicHolidays": [
+      "2025-11-06"
+    ]
+  },
+  "employees": [
+    {
+      "id": "E1",
+      "scheme": "A",
+      "productType": "AVSO",
+      "gender": "F",
+      "skills": [
+        "X-RAY",
+        "FRISK"
+      ],
+      "licenses": [
+        {
+          "code": "SEC",
+          "validTo": "2025-12-31"
+        }
+      ],
+      "primaryOU": "T1",
+      "rotationOffset": 1
+    },
+    {
+      "id": "E2",
+      "scheme": "B",
+      "productType": "AVSO",
+      "gender": "M",
+      "skills": [
+        "FRISK"
+      ],
+      "licenses": [
+        {
+          "code": "SEC",
+          "validTo": "2025-12-31"
+        }
+      ],
+      "primaryOU": "T1",
+      "rotationOffset": 3
+    }
+  ],
+  "demands": [
+    {
+      "id": "D1",
+      "siteOU": "T1",
+      "role": "SCREEN",
+      "productType": "AVSO",
+      "headcount": 2,
+      "shift": {
+        "start": "07:30",
+        "end": "19:30",
+        "duration": 12
+      },
+      "rotationCode": "111100",
+      "skillsRequired": [
+        "FRISK"
+      ],
+      "genderMix": {
+        "F": 1,
+        "M": 1
+      },
+      "teamSize": 5
+    }
+  ],
+  "publishedAssignments": [],
+  "timeLimit": 5
+}
